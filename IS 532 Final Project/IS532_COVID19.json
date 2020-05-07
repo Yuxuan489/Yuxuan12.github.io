@@ -1,0 +1,1810 @@
+[
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "﻿ID",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ﻿ID using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "﻿ID",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column ﻿ID using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "age",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column age using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "age",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column age using expression value.replace(/\\s+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "sex",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column sex using expression value.replace(/\\s+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "sex",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column sex using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "city",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column city using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "city",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column city using expression value.replace(/\\s+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "province",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column province using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "province",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column province using expression value.replace(/\\s+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "country",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column country using expression value.replace(/\\s+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "wuhan(0)_not_wuhan(1)",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column wuhan(0)_not_wuhan(1) using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "latitude",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column latitude using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "longitude",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column longitude using expression value.toNumber()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "date_admission_hospital",
+    "expression": "value.toDate()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column date_admission_hospital using expression value.toDate()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "date_confirmation",
+    "expression": "value.toDate()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column date_confirmation using expression value.toDate()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "symptoms",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column symptoms using expression value.replace(/\\s+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "symptoms",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column symptoms using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "symptoms",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column symptoms using expression value.toString()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "lives_in_Wuhan",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column lives_in_Wuhan using expression value.toString()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "travel_history_dates",
+    "expression": "value.toDate()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column travel_history_dates using expression value.toDate()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "travel_history_location",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column travel_history_location using expression value.replace(/\\s+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "travel_history_location",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column travel_history_location using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "travel_history_location",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column travel_history_location using expression value.toString()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "reported_market_exposure",
+    "expression": "value.toString()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column reported_market_exposure using expression value.toString()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "additional_information",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column additional_information using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "additional_information",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column additional_information using expression value.replace(/\\s+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "chronic_disease_binary",
+    "expression": "value.trim()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column chronic_disease_binary using expression value.trim()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "chronic_disease_binary",
+    "expression": "value.replace(/\\s+/,' ')",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column chronic_disease_binary using expression value.replace(/\\s+/,' ')"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "lives_in_Wuhan",
+    "expression": "value.toLowercase()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column lives_in_Wuhan using expression value.toLowercase()"
+  },
+  {
+    "op": "core/text-transform",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "age",
+    "expression": "value.toNumber()",
+    "onError": "keep-original",
+    "repeat": false,
+    "repeatCount": 10,
+    "description": "Text transform on cells in column age using expression value.toNumber()"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "lives_in_Wuhan",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "live in hangzhou"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "no"
+      }
+    ],
+    "description": "Mass edit cells in column lives_in_Wuhan"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "lives_in_Wuhan",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "business trip"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "no"
+      }
+    ],
+    "description": "Mass edit cells in column lives_in_Wuhan"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "lives_in_Wuhan",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "lived in wuhan for two months and then went back to cangzhou"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "no"
+      }
+    ],
+    "description": "Mass edit cells in column lives_in_Wuhan"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "lives_in_Wuhan",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "medical trip"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "no"
+      }
+    ],
+    "description": "Mass edit cells in column lives_in_Wuhan"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "lives_in_Wuhan",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "chinese"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "no"
+      }
+    ],
+    "description": "Mass edit cells in column lives_in_Wuhan"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "lives_in_Wuhan",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "0"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "no"
+      }
+    ],
+    "description": "Mass edit cells in column lives_in_Wuhan"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "lives_in_Wuhan",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "1"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "yes"
+      }
+    ],
+    "description": "Mass edit cells in column lives_in_Wuhan"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "lives_in_Wuhan",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "no, work in wuhan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "no"
+      }
+    ],
+    "description": "Mass edit cells in column lives_in_Wuhan"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "lives_in_Wuhan",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "return from wuhan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "no"
+      }
+    ],
+    "description": "Mass edit cells in column lives_in_Wuhan"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "lives_in_Wuhan",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "shanghai resident, travel history"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "no"
+      }
+    ],
+    "description": "Mass edit cells in column lives_in_Wuhan"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "lives_in_Wuhan",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "study trip"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "no"
+      }
+    ],
+    "description": "Mass edit cells in column lives_in_Wuhan"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "lives_in_Wuhan",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "thai national"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "no"
+      }
+    ],
+    "description": "Mass edit cells in column lives_in_Wuhan"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "lives_in_Wuhan",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "tourism"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "no"
+      }
+    ],
+    "description": "Mass edit cells in column lives_in_Wuhan"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "lives_in_Wuhan",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "travel"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "no"
+      }
+    ],
+    "description": "Mass edit cells in column lives_in_Wuhan"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "lives_in_Wuhan",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "used to be"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "no"
+      }
+    ],
+    "description": "Mass edit cells in column lives_in_Wuhan"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "lives_in_Wuhan",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "work in wuhan"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "no"
+      }
+    ],
+    "description": "Mass edit cells in column lives_in_Wuhan"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "lives_in_Wuhan",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "xiantao city resident"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "no"
+      }
+    ],
+    "description": "Mass edit cells in column lives_in_Wuhan"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "lives_in_Wuhan",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [],
+        "fromBlank": true,
+        "fromError": false,
+        "to": "n/a"
+      }
+    ],
+    "description": "Mass edit cells in column lives_in_Wuhan"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "symptoms",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "fever, cough",
+          "fever (38 ° C)",
+          "fever, weak",
+          "fever; cough",
+          "Fever (38 ° C)",
+          "fever (37.4 ℃), cough",
+          "fever (37.8 ℃), cough",
+          "fever (39.3 ℃), cough",
+          "fever (39.9 ℃), cough",
+          "fever 37 C",
+          "fever 37.1 ℃ , couh",
+          "fever 38.2 ℃, cough",
+          "fever 38.3 ℃ , cough"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fever, cough"
+      },
+      {
+        "from": [
+          "fever",
+          "fever 38",
+          "fever 37.7℃",
+          "fever (37.5 ℃ ～ 38.0 ℃)",
+          "fever (38.0 ℃)",
+          "fever (38.3 ℃)",
+          "fever (39.5 ℃)",
+          "fever 37.2",
+          "fever 37.5℃",
+          "fever 38.3",
+          "fever 39.0 ℃",
+          "fever 39.3"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fever"
+      },
+      {
+        "from": [
+          "fever, sore throat",
+          "fever 37.8 ℃ , sore throat",
+          "fever, sore throat, mild cough",
+          "fever, sore throat, sputum",
+          "fever; sore throat;fatigue;vomiting",
+          "fever;sore throat; fatigue; diarrhea"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fever, sore throat"
+      },
+      {
+        "from": [
+          "cough, fever",
+          "Cough, fever (38 ℃)",
+          "cough; fever"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cough, fever"
+      },
+      {
+        "from": [
+          "cough, fatigue, fever",
+          "cough, fatigue, fever, sputum",
+          "cough, fatigue, fever, weakness"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cough, fatigue, fever"
+      },
+      {
+        "from": [
+          "fatigue, fever",
+          "fatigue, fever (38 ℃)"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fatigue, fever"
+      },
+      {
+        "from": [
+          "Sore throat",
+          "sore throat"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "sore throat"
+      },
+      {
+        "from": [
+          "fever, runny nose",
+          "fever; runny nose"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fever, runny nose"
+      },
+      {
+        "from": [
+          "low fever (37.4 ℃)",
+          "low fever 37.0 ℃"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "low fever"
+      }
+    ],
+    "description": "Mass edit cells in column symptoms"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "symptoms",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Pharyngeal dryness",
+          "pharyngeal discomfort"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "pharyngeal discomfort"
+      }
+    ],
+    "description": "Mass edit cells in column symptoms"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "symptoms",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "fever, cough",
+          "rever, cough"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fever, cough"
+      },
+      {
+        "from": [
+          "fever; dry cough; fatigue",
+          "fever; fatigue; dry cough"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fever,dry cough,fatigue"
+      },
+      {
+        "from": [
+          "fever, sore throat",
+          "fever, dry throat, sore throat"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fever, sore throat"
+      }
+    ],
+    "description": "Mass edit cells in column symptoms"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "symptoms",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "cough, fever",
+          "fever, cough"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cough, fever"
+      },
+      {
+        "from": [
+          "fatigue, fever",
+          "fever; fatigue"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "fatigue, fever"
+      },
+      {
+        "from": [
+          "cough, fever, sputum",
+          "cough; sputum; fever"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cough, fever, sputum"
+      }
+    ],
+    "description": "Mass edit cells in column symptoms"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "symptoms",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "cough, fever, shortness of breath",
+          "cough, fever, shortness breath"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "cough, fever, shortness of breath"
+      }
+    ],
+    "description": "Mass edit cells in column symptoms"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "symptoms",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Fever (38.1 ° C), cough, headache.",
+          "Fever, cough, headache"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "Fever, cough, headache."
+      }
+    ],
+    "description": "Mass edit cells in column symptoms"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "wuhan(0)_not_wuhan(1)",
+    "description": "Remove column wuhan(0)_not_wuhan(1)"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "geo_resolution",
+    "description": "Remove column geo_resolution"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "chronic_disease_binary",
+    "description": "Remove column chronic_disease_binary"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "chronic_disease",
+    "description": "Remove column chronic_disease"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "source",
+    "description": "Remove column source"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "sequence_available",
+    "description": "Remove column sequence_available"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "notes_for_discussion",
+    "description": "Remove column notes_for_discussion"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "admin3",
+    "description": "Remove column admin3"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "admin2",
+    "description": "Remove column admin2"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "admin1",
+    "description": "Remove column admin1"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "country_new",
+    "description": "Remove column country_new"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "admin_id",
+    "description": "Remove column admin_id"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "data_moderator_initials",
+    "description": "Remove column data_moderator_initials"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column",
+    "description": "Remove column Column"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column2",
+    "description": "Remove column Column2"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column3",
+    "description": "Remove column Column3"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column4",
+    "description": "Remove column Column4"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column5",
+    "description": "Remove column Column5"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column6",
+    "description": "Remove column Column6"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column7",
+    "description": "Remove column Column7"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column8",
+    "description": "Remove column Column8"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column9",
+    "description": "Remove column Column9"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column10",
+    "description": "Remove column Column10"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column11",
+    "description": "Remove column Column11"
+  },
+  {
+    "op": "core/column-removal",
+    "columnName": "Column12",
+    "description": "Remove column Column12"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "0.08333"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "0"
+      }
+    ],
+    "description": "Mass edit cells in column age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "0.25"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "0"
+      }
+    ],
+    "description": "Mass edit cells in column age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "0.58333"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "0"
+      }
+    ],
+    "description": "Mass edit cells in column age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "1.75"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1"
+      }
+    ],
+    "description": "Mass edit cells in column age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "Belgium"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "N/A"
+      }
+    ],
+    "description": "Mass edit cells in column age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "N/A",
+          "NA"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "N/A"
+      }
+    ],
+    "description": "Mass edit cells in column age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "0-10"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1"
+      }
+    ],
+    "description": "Mass edit cells in column age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "0-18"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ""
+      }
+    ],
+    "description": "Mass edit cells in column age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "0-6"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "1"
+      }
+    ],
+    "description": "Mass edit cells in column age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "10-19"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "11"
+      }
+    ],
+    "description": "Mass edit cells in column age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "13-19"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "13"
+      }
+    ],
+    "description": "Mass edit cells in column age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "16-80"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ""
+      }
+    ],
+    "description": "Mass edit cells in column age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "18-65"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ""
+      }
+    ],
+    "description": "Mass edit cells in column age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "19-77"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ""
+      }
+    ],
+    "description": "Mass edit cells in column age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "20-29"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "21"
+      }
+    ],
+    "description": "Mass edit cells in column age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "21-72"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ""
+      }
+    ],
+    "description": "Mass edit cells in column age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "22-80"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ""
+      }
+    ],
+    "description": "Mass edit cells in column age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "23-72"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ""
+      }
+    ],
+    "description": "Mass edit cells in column age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "27-40"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ""
+      }
+    ],
+    "description": "Mass edit cells in column age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "30-39"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "31"
+      }
+    ],
+    "description": "Mass edit cells in column age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "36-45"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ""
+      }
+    ],
+    "description": "Mass edit cells in column age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "38-68"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ""
+      }
+    ],
+    "description": "Mass edit cells in column age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "40-49"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "41"
+      }
+    ],
+    "description": "Mass edit cells in column age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "40-89"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ""
+      }
+    ],
+    "description": "Mass edit cells in column age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "50-59"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "51"
+      }
+    ],
+    "description": "Mass edit cells in column age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "60-60"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "60"
+      }
+    ],
+    "description": "Mass edit cells in column age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "60-69"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "61"
+      }
+    ],
+    "description": "Mass edit cells in column age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "70-79"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "71"
+      }
+    ],
+    "description": "Mass edit cells in column age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "8-68"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ""
+      }
+    ],
+    "description": "Mass edit cells in column age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "80-80"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "80"
+      }
+    ],
+    "description": "Mass edit cells in column age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "80-89"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "81"
+      }
+    ],
+    "description": "Mass edit cells in column age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "N/A"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": ""
+      }
+    ],
+    "description": "Mass edit cells in column age"
+  },
+  {
+    "op": "core/mass-edit",
+    "engineConfig": {
+      "facets": [],
+      "mode": "record-based"
+    },
+    "columnName": "age",
+    "expression": "value",
+    "edits": [
+      {
+        "from": [
+          "0.5"
+        ],
+        "fromBlank": false,
+        "fromError": false,
+        "to": "0"
+      }
+    ],
+    "description": "Mass edit cells in column age"
+  }
+]
